@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: #41a1ff; }
+  body header {
+    background-color: #333;
+    height: 10vh;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    padding-left: 5%;
+    color: #eee; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Days One", sans-serif; }
