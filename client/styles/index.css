@@ -41,6 +41,8 @@ body {
     padding-left: 5%;
     color: #eee;
     font-size: 0.5em; }
+    body header a {
+      color: #eee; }
 
 h1,
 h2,
