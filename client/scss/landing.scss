@@ -1,4 +1,27 @@
 @import "variables.scss";
+.bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -1;
+  .img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    background-image: url(https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=88ed2e2c4060869e039f95d361a24a8b&auto=format&fit=crop&w=1718&q=80);
+    background-size: cover;
+    background-position: center;
+    background-color: lightblue;
+    background-blend-mode: darken;
+  }
+}
 
 main {
   display: flex;
@@ -6,9 +29,11 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  color: $light;
 }
 
 .page-header {
+  margin-top: 2em;
   max-width: 30%;
   h2 {
     text-transform: uppercase;
@@ -24,4 +49,10 @@ main {
 
 p {
   font-size: 1em;
+}
+.link-cards {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
 }
