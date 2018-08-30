@@ -44,4 +44,7 @@ h6 {
   border: 1px solid $light;
   padding: 0.5em;
   font-size: 5em;
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(50, 50, 50, 0.6);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(50, 50, 50, 0.6);
+  box-shadow: 0px 5px 15px 0px rgba(50, 50, 50, 0.6);
 }

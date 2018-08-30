@@ -18,7 +18,7 @@
     background-size: cover;
     background-position: center;
     background-color: lightblue;
-    background-blend-mode: darken; }
+    background-blend-mode: multiply; }
 
 main {
   display: flex;
